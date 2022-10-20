@@ -35,9 +35,8 @@ Se pueden anidar, es decir, meter una dentro de la otra.
 #Un diccionario en Python es una colección de elementos, donde cada uno tiene una llave key y un valor value. Los diccionarios se pueden crear con paréntesis {} separando con una coma cada par key: value. En el siguiente ejemplo tenemos tres keys que son el nombre, la edad y el documento.
 
 ## d1 = {
-  "Nombre": "Sara",
-  "Edad": 27,
-  "Documento": 1003882
-}
-print(d1)
-#{'Nombre': 'Sara', 'Edad': 27, 'Documento': 1003882}
+## "Nombre": "Sara",
+ # "Edad": 27,
+ # "Documento": 1003882}
+## print(d1)
+# {'Nombre': 'Sara', 'Edad': 27, 'Documento': 1003882}

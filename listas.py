@@ -1,33 +1,17 @@
-## Ejercicio practico "Lista"
+## ejercicio 1 
+# Escribir un programa que almacene las asignaturas de un cuerso(por ejemplos
+#  Matematicas, Física , Química, Historia y Lengua) en una lista yla muestra por pantalla 
+# el mensaje Yo estudio <asignatura>, donde <asignatura<es cada una de
+#  las asignaturas de la lsita.
 
 
-def capturar ():
-    global Lista 
-    Lista =[]
-    print  ("cuantos elementos va a tener la lista?")
-    n=input()
-    n=int(n)
-    for i in range (0,n):
-        print ("Ingresa el Elemento del indice ", i )
-        elemento =input()
-        Lista.insert(i,elemento)
-#Definiendo la funcion de mostrar
-def mostrar():
-    print (Lista)
-#DeFINIENDO LA FUNCION DE AGREGAR 
-def agregar():
-    print ("Ingresar el Elemento que desea Agregar ")
-    elemento=input()
-    print ("Ingrese el indice donde desea Agregarlo:")
-    indice= input()
-    indice=int(indice)
-    Logintud=len(Lista)
-    Longitud=int(Longitud)
-    if (indice>Longitud or indice<0):
-        print
 
-capturar()
-mostrar()
+# Lista: Coleccion de elementos que podemos modicar(mutables)
+
+asignaturas_Lista = ['Matematicas', 'Física' , 'Química', 'Historia', 'Lengua']
+
+for asignatura in asignaturas_Lista:
+    print(f'yo estudio{asignatura}')
 
 
 
